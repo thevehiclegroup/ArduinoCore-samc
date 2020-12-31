@@ -14,6 +14,39 @@
 # License along with this library; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
+
+# 302991
+# ---------------------------------------
+302991.name=302991
+302991.vid.0=0x03eb
+302991.pid.0=0x2157
+
+302991.upload.tool=openocd
+302991.upload.protocol=sam-ba
+302991.upload.maximum_size=262144
+302991.upload.maximum_data_size=32768
+302991.upload.use_1200bps_touch=false
+302991.upload.wait_for_upload_port=false
+302991.upload.native_usb=false
+302991.build.mcu=cortex-m0plus
+302991.build.f_cpu=48000000L
+302991.build.usb_product="302991"
+302991.build.usb_manufacturer="The Vehicle Group Ltd"
+302991.build.board=SAMC
+302991.build.core=arduino
+302991.build.extra_flags=-D__SAMC21E18A__ {build.usb_flags}
+302991.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+302991.build.openocdscript=openocd_scripts/arduino_zero.cfg
+302991.build.variant=302991
+302991.build.variant_system_lib=
+302991.build.vid=0x2341
+302991.build.pid=0x804d
+302991.bootloader.tool=openocd
+302991.bootloader.file=302991/samc21_sam_ba.bin
+
+
+
+
 # Arduino Zero (Prorgamming Port)
 # ---------------------------------------
 arduino_zero_edbg.name=Arduino Zero (Programming Port)

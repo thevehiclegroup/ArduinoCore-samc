@@ -14,13 +14,13 @@
 # License along with this library; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-# Arduino SAMD Core and platform.
+# Arduino SAMC Core and platform.
 #
 # For more info:
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
 
-name=Arduino SAMD (32-bits ARM Cortex-M0+) Boards
-version=1.8.11
+name=Arduino SAMC (32-bits ARM Cortex-M0+) Boards
+version=1.0.00
 
 # Compile variables
 # -----------------
